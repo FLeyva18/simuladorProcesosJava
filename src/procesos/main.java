@@ -40,7 +40,8 @@ public class main extends javax.swing.JFrame {
         jLabel1.setText("Enter");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(51, 130, -1, -1));
 
-        jLabel2.setText("--------------------------------------->");
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("─────────────────────>");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
